@@ -1,1 +1,13 @@
-<app-product-list></app-product-list>
+
+<div class='container'>
+<!-- <nav class='navbar navbar-expand navbar-light bg-light'>
+    <a>{{title}} :</a>
+    <ul Class='nav nav-pills'>
+        <li><a class='nav-link' [routerLink]="['products']">Products</a></li>
+        <li><a class='nav-link' [routerLink]="['add']">Add Product</a></li>
+    </ul>
+</nav> -->
+<app-navbar></app-navbar>
+<app-notifications></app-notifications>    
+<router-outlet></router-outlet>
+</div>
